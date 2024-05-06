@@ -58,7 +58,7 @@ public class Main {
 			}
 			System.out.println(punteggioPl + " a " + punteggioCPU);
 		} while (punteggioPl < 5 && punteggioCPU < 5);
-		System.out.println("Partita finita --- ");
+		System.out.print("Partita finita --- ");
 		if (punteggioPl == 5)
 			System.out.println("Player vince!");
 		else
